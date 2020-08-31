@@ -1,5 +1,7 @@
 # Data Journalism and D3
 
+Open ![link](https://mirgadir.github.io/D3-challenge/) to see solution.
+
 ![Newsroom](https://media.giphy.com/media/v2xIous7mnEYg/giphy.gif)
 
 ## Background
