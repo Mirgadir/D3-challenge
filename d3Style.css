@@ -68,3 +68,10 @@
     font-size: 13px;
   }
 }
+.circle {
+  stroke-width: 2px;
+  stroke: white;
+}
+.circle:hover {
+  stroke: black;
+}
