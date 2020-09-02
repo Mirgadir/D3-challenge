@@ -1,5 +1,5 @@
   
-var svgWidth = 960;
+var svgWidth = 800;
 var svgHeight = 500;
 
 var margin = {
@@ -207,11 +207,12 @@ function updateToolTip(chosenXAxis, chosenYAxis, textGroup) {
     .data(journalData)
     .enter()
     .append("text")
-    .attr("class", "stateText")
     .text(d => d.abbr)
+    .attr("class", "stateText")
     .attr('font-size', "10px")
+    .attr('dominant-baseline', 'middle')
     .attr('x', d => xLinearScale(d[chosenXAxis]))
-    .attr('y', d => yLinearScale(d[chosenYAxis]));
+    .attr('y', d => yLinearScale(d[chosenYAxis])-0.6);
   //console.log(textGroup);
       
 
